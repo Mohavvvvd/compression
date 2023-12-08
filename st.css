@@ -1,0 +1,83 @@
+header{
+    background-image: url(back.PNG);
+    height: 150px;
+    width: 100%;
+    border-radius:10px ;
+    margin-bottom: 10px;
+    color: beige;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: color 0.3s, background-color 0.3s;
+}
+header:hover{
+    color: blue;
+    background-color: aqua;
+}
+img{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius:5px ;
+    float: left;
+}
+h1{
+    text-shadow: 0 0 10px;
+    text-align: center;
+}
+#p1{
+    float: right;
+    margin-right: 10px;
+}
+section{
+    height: 200px;
+    padding: 100px;
+    width: 80%;
+    position: relative;
+    margin: auto;
+    background-image: url(back.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    border-radius: 10px;
+}
+.cont {
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.cont input{
+    color:cadetblue;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    transition: color 0.3s, background-color 0.3s;
+}
+.cont input:hover{
+    background-color: blue;
+}
+footer{
+    background-image: url(back.PNG);
+    height: 100px;
+    width: 100%;
+    border-radius:10px ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: beige;
+    padding: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: color 0.3s, background-color 0.3s;
+    text-align: center;
+}
+footer:hover{
+    color: darkgoldenrod;
+    background-color: aqua;
+}
